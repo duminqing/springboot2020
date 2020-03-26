@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "example.service.enabled",
+      "type": "java.lang.String",
+      "description": "Description for example.service.enabled."
+  }
+] }
