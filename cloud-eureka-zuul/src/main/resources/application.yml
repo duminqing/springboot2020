@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+
+spring:
+  application:
+    name: zuul
+server:
+  port: 7070
+
+zuul:
+  routes:
+    client1:
+      path: /client/**
+      service-id: CLIENT1
+    server1:
+      path: /server/**
+      service-id: SERVER1
