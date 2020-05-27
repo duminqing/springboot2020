@@ -6,3 +6,5 @@ eureka:
 spring:
   application:
     name: client1
+server:
+  port: 8080
