@@ -1,12 +1,18 @@
 {
   "properties": [
     {
+      "name": "example.service.enabled",
+      "type": "java.lang.String",
+      "description": "Description for example.service.enabled."
+    },
+    {
       "name": "example.service.suffix",
       "type": "java.lang.String",
       "description": "Description for example.service.suffix."
-  },  {
+    },
+    {
       "name": "example.service.prefix",
       "type": "java.lang.String",
-      "description": "Description for example.service.suffix."
+      "description": "Description for example.service.prefix."
     }
-] }
+  ] }
