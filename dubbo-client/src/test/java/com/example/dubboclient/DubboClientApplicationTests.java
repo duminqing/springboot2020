@@ -1,16 +1,13 @@
-package com.example.cloudeurekacenter;
+package com.example.dubboclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.time.Instant;
-
 @SpringBootTest
-class CloudEurekaCenterApplicationTests {
+class DubboClientApplicationTests {
 
     @Test
     void contextLoads() {
-        Instant.now();
     }
 
 }
