@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>dubbo-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dubbo</name>
+    <name>dubbo-server</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
