@@ -1,6 +1,7 @@
 package com.example.demoaop;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,5 +25,14 @@ public class MyController {
     @RequestMapping("/2")
     public void test2() {
         log.info("test 2");
+    }
+
+    @Autowired
+    private MyService myService;
+
+    @RequestMapping("/3")
+    public void test3() {
+        myService.test1();
+        log.info("test 3");
     }
 }
