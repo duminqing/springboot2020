@@ -1,6 +1,7 @@
 package com.example.dubboclient;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.example.dubbo.Apple;
 import com.example.dubbo.IHelloService;
 import org.springframework.stereotype.Component;
 
@@ -13,5 +14,10 @@ public class HelloConsumer {
 
     public String getWhat() {
         return iHelloService.sayHello();
+    }
+
+
+    public Apple getApple() {
+        return iHelloService.getApple();
     }
 }

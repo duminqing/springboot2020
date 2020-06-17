@@ -10,4 +10,9 @@ public class HelloServiceImpl implements IHelloService {
     public String sayHello() {
         return "hello";
     }
+
+    @Override
+    public Apple getApple() {
+        return new Apple(1, "green");
+    }
 }
