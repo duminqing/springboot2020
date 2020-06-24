@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
@@ -24,6 +23,6 @@ public class Student {
     private Long grade;
     @Protobuf(fieldType = FieldType.DOUBLE, required = true, order = 4)
     private double score;
-    @Protobuf(fieldType = FieldType.DEFAULT, required = true, order = 5)
+    @Protobuf(fieldType = FieldType.BIGDECIMAL, required = true, order = 5)
     private BigDecimal salary;
 }
