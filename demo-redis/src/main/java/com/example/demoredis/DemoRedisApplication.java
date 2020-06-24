@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 public class DemoRedisApplication {
 
     public static void main(String[] args) {
-     SpringApplication.run(DemoRedisApplication.class, args);
+        SpringApplication.run(DemoRedisApplication.class, args);
     }
 
 
