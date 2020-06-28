@@ -20,6 +20,8 @@
     </properties>
 
     <dependencies>
+
+
         <!-- https://mvnrepository.com/artifact/com.baidu/jprotobuf -->
         <dependency>
             <groupId>com.baidu</groupId>
